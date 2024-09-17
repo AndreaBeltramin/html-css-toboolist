@@ -13,8 +13,19 @@
 }
 
 /*header*/
+.header{
+    padding-left: 10px;
+    padding-top: 10px;
+    line-height: 80px;
+}
+
+.logo{
+    height: 50px;
+    vertical-align: middle;
+}
 .title-header{
-    display: inline-block;
+    display: inline;
+    vertical-align: middle;
 }
 
 .first-button{
@@ -33,12 +44,31 @@
 /*main*/
 .main-box{
     background-color: lightgray;
-    padding: 50px;
+    padding: 20px;
 }
 
 .second-box{
     background-color: white;
-    padding: 70px;
+    margin-left: 50px;
+}
+.top-section{
+    border-bottom: solid 2px;
+    border-color: lightgray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+.second-section{
+    padding: 20px;
+}
+.third-section{
+    padding: 20px;
+}
+.section4{
+    padding: 20px;
+}
+ul{
+    list-style: none;
 }
 .check{
     border-radius: 50%;
