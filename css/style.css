@@ -19,4 +19,25 @@
 }
 
 /*main*/
+.check{
+    border-radius: 50%;
+    border: solid;
+    border-color: green;
+    padding: 1px;
+    color: green;
+}
 
+.cross{
+    border-radius: 50%;
+    border: solid;
+    border-color: red;
+    padding: 1px;
+    color: red;
+}
+
+.check-list{
+    background-color: blue;
+    color: white;
+    border-radius: 20%;
+    padding: 5px;
+}
