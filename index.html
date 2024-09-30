@@ -1,65 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Toboolist</title>
-</head>
-<body class="cointainer">
-    <header>
-        <div class="header">
-            <img src="./img/Logo.png" alt="logo" class="logo">
-            <h1 class="title-header">Toboolist</h1>
-        </div>
-    </header>
-    <div class="main-box">
-        <main class="second-box">
-            <section class="top-section">
-                <button type="button" class="first-button">Add task</button>
-                <button type="button" class="second-button">Add section</button>
-            </section>
-            <section class="second-section">
-                <ul>
-                    <h2>&#9660 New Task</h2>
-                    <li>
-                        <span class="check">&check;</span> Quarterly Newsletter <span class="check-list"> Editorial</span>
-                    </li>
-                </ul>
-            </section>
-            <section class="third-section">
-                <ul><h2>&#9660 Today</h2>
-                    <li>
-                     <span class="check">&check;</span> Recruiting blog post<span class="check-list"> Editorial</span>
-                    </li>
-                    <li>
-                        <span class="check">&check;</span> Mobile app launch<span class="check-list" id="Q1goals"> Q1 Goals</span>
-                    </li>
-                    <li>
-                        <span class="cross">&cross; </span> Interview Jonh H.<span class="check-list" id="recruiting"> Recruiting</span>
-                    </li>
-                    <li>
-                        <span class="check">&check;</span> Summit update to mobile storefronts<span class="check-list" id="mobile">Mobile</span>
-                    </li>
-                </ul>
-            </section>
-            <section class="section4">
-                <ul><h2>&#9660 Upcoming</h2>
-                    <li>
-                        <span class="cross">&cross;</span> Schedule meeting with Alex
-                    </li>
-                    <li>
-                        <span class="check">&check;</span> Homepage refreshh <span class="check-list" id="website"> Website</span>
-                    </li>
-                    <li>
-                        <span class="check">&check; </span> Onboard new Sales team members <span class="check-list" id="sales"> Sales</span>
-                    </li>
-                    <li>
-                        <span class="check">&check;</span> Review editorial calendar <span class="check-list"> Editorial</span>
-                    </li>
-                </ul>
-            </section>
-        </main>  
-    </div>  
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/style.css" />
+		<title>Toboolist</title>
+	</head>
+	<body>
+		<header>
+			<div class="header">
+				<img src="./img/Logo.png" alt="logo" class="logo" />
+				<h1 class="title-header">Toboolist</h1>
+			</div>
+		</header>
+		<main class="main-box">
+			<div class="container">
+				<section class="button-section">
+					<button class="first-button">Add task</button>
+					<button class="second-button">Add section</button>
+				</section>
+				<section class="list-section">
+					<ul>
+						<h2>&blacktriangledown; New Task</h2>
+						<li>
+							<button class="check">&check;</button> Quarterly Newsletter
+							<button class="check-list">Editorial</button>
+						</li>
+					</ul>
+					<ul>
+						<h2>&blacktriangledown;Today</h2>
+						<li>
+							<button class="check">&check;</button> Recruiting blog post
+							<button class="check-list">Editorial</button>
+						</li>
+						<li>
+							<button class="check">&check;</button> Mobile app launch
+							<button class="check-list Q1goals">Q1 Goals</button>
+						</li>
+						<li>
+							<button class="cross">&cross;</button> Interview Jonh H.
+							<button class="check-list recruiting">Recruiting</button>
+						</li>
+						<li>
+							<button class="check">&check;</button> Summit update to mobile
+							storefronts
+							<button class="check-list mobile">Mobile</button>
+						</li>
+					</ul>
+					<ul>
+						<h2>&blacktriangledown; Upcoming</h2>
+						<li>
+							<button class="cross">&cross;</button> Schedule meeting with Alex
+						</li>
+						<li>
+							<button class="check">&check;</button> Homepage refresh
+							<button class="check-list website">Website</button>
+						</li>
+						<li>
+							<button class="check">&check;</button> Onboard new Sales team
+							members
+							<button class="check-list sales">Sales</button>
+						</li>
+						<li>
+							<button class="check">&check;</button> Review editorial calendar
+							<button class="check-list">Editorial</button>
+						</li>
+					</ul>
+				</section>
+			</div>
+		</main>
+	</body>
 </html>

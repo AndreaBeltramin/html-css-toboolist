@@ -1,117 +1,125 @@
 /*RESET*/
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
 /*UTILS*/
-.container{
-    margin: 0 auto;
-    padding: 0;
-    width: 1000px;
-    max-width: 100%;
+
+.container {
+	margin: 0 auto;
+	padding: 0;
+	width: 1000px;
+	max-width: 100%;
+	background-color: white;
+}
+
+button {
+	padding: 5px 10px;
+	border-radius: 5px;
 }
 
 /*header*/
-.header{
-    padding-left: 10px;
-    padding-top: 10px;
-    line-height: 80px;
-    font-size: 1.5rem;
+
+.header {
+	padding-left: 10px;
+	line-height: 80px;
 }
 
-.logo{
-    height: 50px;
-    vertical-align: middle;
-}
-.title-header{
-    display: inline;
-    vertical-align: middle;
+.logo {
+	height: 50px;
+	vertical-align: middle;
 }
 
-.first-button{
-    background-color: #3579df;
-    color: white;
-    padding: 5px;
-    border-radius: 5px;
-}
-.second-button{
-    background-color: white;
-    color: lightgray;
-    padding: 5px;
-    border-radius: 5px;
+.title-header {
+	display: inline;
+	vertical-align: middle;
+	font-size: 2.3rem;
+	font-weight: bolder;
 }
 
 /*main*/
-.main-box{
-    background-color: lightgray;
-    padding: 20px;
+
+.main-box {
+	background-color: lightgray;
+	padding: 20px;
 }
 
-.second-box{
-    background-color: white;
-    margin-left: 80px;
-    margin-right: 50px;
-    
-}
-.top-section{
-    border-bottom: solid 2px;
-    border-color: lightgray;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 25px;
-}
-.second-section{
-    padding: 20px;
-}
-.third-section{
-    padding: 20px;
-}
-.section4{
-    padding: 20px;
-}
-ul{
-    list-style: none;
-}
-.check{
-    border-radius: 50%;
-    border: solid;
-    border-color: green;
-    padding: 1px;
-    color: green;
+.button-section {
+	border-bottom: solid 2px;
+	border-color: lightgray;
+	padding: 10px 25px;
 }
 
-.cross{
-    border-radius: 50%;
-    border: solid;
-    border-color: red;
-    padding: 1px;
-    color: red;
+.first-button {
+	background-color: #3579df;
+	color: white;
+	border-color: #3579df;
 }
 
-.check-list{
-    color: white;
-    border-radius: 20%;
-    padding: 5px;
-    background-color: rgb(0, 195, 255);
-    font-size: 0.6rem;
-}
-li{
-    padding: 5px;
+.second-button {
+	background-color: white;
+	color: lightgray;
+	border-color: lightgray;
 }
 
-#Q1goals{
-    background-color: purple;
+ul {
+	list-style: none;
+	padding: 20px 25px 0;
 }
-#recruiting{
-    background-color: green;
+
+li {
+	padding-bottom: 15px;
 }
-#mobile{
-    background-color: rgb(245, 105, 41);
+
+li > button {
+	border-style: none;
 }
-#website{
-    background-color: rgb(175, 30, 180);
+
+.check {
+	border-radius: 50%;
+	border: solid green 1px;
+	padding: 3px;
+	color: green;
 }
-#sales{
-    background-color: limegreen;
+
+.cross {
+	border-radius: 50%;
+	border: solid red 1px;
+	padding: 3px;
+	color: red;
+}
+
+.check-list {
+	color: white;
+	border-radius: 20px;
+	padding: 8px;
+	background-color: rgb(0, 195, 255);
+	font-size: 0.6rem;
+}
+
+.Q1goals {
+	background-color: purple;
+}
+
+.recruiting {
+	background-color: green;
+}
+
+.mobile {
+	background-color: rgb(245, 105, 41);
+}
+
+.website {
+	background-color: rgb(175, 30, 180);
+}
+
+.sales {
+	background-color: limegreen;
 }
