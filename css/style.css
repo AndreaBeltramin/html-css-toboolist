@@ -15,14 +15,14 @@ body {
 .container {
 	margin: 0 auto;
 	padding: 0;
-	width: 1000px;
+	width: 800px;
 	max-width: 100%;
 	background-color: white;
 }
 
-button {
-	padding: 5px 10px;
-	border-radius: 5px;
+h2 {
+	font-size: 1.3rem;
+	padding-bottom: 5px;
 }
 
 /*header*/
@@ -47,26 +47,35 @@ button {
 /*main*/
 
 .main-box {
-	background-color: lightgray;
-	padding: 20px;
+	background-color: rgb(247, 248, 250);
+	padding: 40px;
 }
 
 .button-section {
 	border-bottom: solid 2px;
-	border-color: lightgray;
+	border-color: rgb(247, 248, 250);
 	padding: 10px 25px;
 }
 
+.button-section button {
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+
 .first-button {
-	background-color: #3579df;
+	background-color: rgb(74, 173, 241);
 	color: white;
-	border-color: #3579df;
+	border-color: rgb(74, 173, 241);
 }
 
 .second-button {
 	background-color: white;
 	color: lightgray;
 	border-color: lightgray;
+}
+
+.list-section {
+	padding-bottom: 20px;
 }
 
 ul {
@@ -80,12 +89,13 @@ li {
 
 li > button {
 	border-style: none;
+	font-size: 0.5rem;
 }
 
 .check {
 	border-radius: 50%;
 	border: solid green 1px;
-	padding: 3px;
+	padding: 2px;
 	color: green;
 }
 
@@ -100,26 +110,26 @@ li > button {
 	color: white;
 	border-radius: 20px;
 	padding: 8px;
-	background-color: rgb(0, 195, 255);
+	background-color: rgb(69, 169, 227);
 	font-size: 0.6rem;
 }
 
 .Q1goals {
-	background-color: purple;
+	background-color: rgb(156, 119, 231);
 }
 
 .recruiting {
-	background-color: green;
+	background-color: rgb(104, 191, 166);
 }
 
 .mobile {
-	background-color: rgb(245, 105, 41);
+	background-color: rgb(244, 157, 58);
 }
 
 .website {
-	background-color: rgb(175, 30, 180);
+	background-color: rgb(216, 100, 157);
 }
 
 .sales {
-	background-color: limegreen;
+	background-color: rgb(177, 202, 41);
 }
